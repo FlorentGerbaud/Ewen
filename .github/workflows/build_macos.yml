@@ -3,7 +3,7 @@ name: Build macOS App
 on:
   push:
     branches: [ main, master ]
-  workflow_dispatch:  # Permet de lancer manuellement depuis GitHub
+  workflow_dispatch:
 
 jobs:
   build:
@@ -19,21 +19,20 @@ jobs:
           python-version: '3.11'
 
       - name: Install dependencies
-        run: |
-          pip install pyinstaller
-          pip install matplotlib==3.7.5
-          pip install scikit-learn
-          pip install numpy
+        run: pip install pyinstaller matplotlib==3.7.5 scikit-learn numpy pygame vispy PyQt6 scipy
 
-      - name: Build .app with PyInstaller
-        run: |
-          pyinstaller --onefile --windowed \
-            --name "ProposalColorRange" \
-            src/proposalColorRange.py
+      - name: Build ProposalColorRange
+        run: pyinstaller --onefile --windowed --name "ProposalColorRange" src/proposalColorRange.py
 
-      - name: Upload macOS artifact
+      - name: Build BuildJSON
+        run: pyinstaller --onefile --windowed --name "BuildJSON" src/buildJSON.py
+
+      - name: Build PSAC
+        run: pyinstaller --onefile --windowed --name "PSAC" PSAC.py
+
+      - name: Upload macOS artifacts
         uses: actions/upload-artifact@v4
         with:
-          name: ProposalColorRange-macOS
+          name: Apps-macOS
           path: dist/
           retention-days: 7
