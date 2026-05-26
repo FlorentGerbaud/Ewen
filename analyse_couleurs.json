@@ -1,0 +1,452 @@
+[
+    {
+        "h_range": [
+            4,
+            29
+        ],
+        "s_range": [
+            75,
+            100
+        ],
+        "v_range": [
+            70,
+            98
+        ],
+        "song_path": "C:/Users/fgd4/Documents/Perso/Ewen/song/alexzavesa-calm-elegant-logo-519008.mp3"
+    },
+    {
+        "h_range": [
+            2,
+            350
+        ],
+        "s_range": [
+            57,
+            89
+        ],
+        "v_range": [
+            69,
+            87
+        ],
+        "song_path": ""
+    },
+    {
+        "h_range": [
+            4,
+            354
+        ],
+        "s_range": [
+            37,
+            69
+        ],
+        "v_range": [
+            70,
+            98
+        ],
+        "song_path": ""
+    },
+    {
+        "h_range": [
+            1,
+            353
+        ],
+        "s_range": [
+            48,
+            89
+        ],
+        "v_range": [
+            56,
+            70
+        ],
+        "song_path": ""
+    },
+    {
+        "h_range": [
+            6,
+            30
+        ],
+        "s_range": [
+            61,
+            96
+        ],
+        "v_range": [
+            81,
+            100
+        ],
+        "song_path": ""
+    },
+    {
+        "h_range": [
+            0,
+            359
+        ],
+        "s_range": [
+            34,
+            84
+        ],
+        "v_range": [
+            42,
+            56
+        ],
+        "song_path": ""
+    },
+    {
+        "h_range": [
+            0,
+            358
+        ],
+        "s_range": [
+            3,
+            51
+        ],
+        "v_range": [
+            34,
+            49
+        ],
+        "song_path": ""
+    },
+    {
+        "h_range": [
+            3,
+            351
+        ],
+        "s_range": [
+            34,
+            68
+        ],
+        "v_range": [
+            54,
+            75
+        ],
+        "song_path": ""
+    },
+    {
+        "h_range": [
+            0,
+            358
+        ],
+        "s_range": [
+            3,
+            75
+        ],
+        "v_range": [
+            25,
+            45
+        ],
+        "song_path": ""
+    },
+    {
+        "h_range": [
+            9,
+            359
+        ],
+        "s_range": [
+            32,
+            69
+        ],
+        "v_range": [
+            78,
+            99
+        ],
+        "song_path": ""
+    },
+    {
+        "h_range": [
+            0,
+            358
+        ],
+        "s_range": [
+            3,
+            52
+        ],
+        "v_range": [
+            42,
+            60
+        ],
+        "song_path": ""
+    },
+    {
+        "h_range": [
+            11,
+            72
+        ],
+        "s_range": [
+            30,
+            68
+        ],
+        "v_range": [
+            65,
+            87
+        ],
+        "song_path": ""
+    },
+    {
+        "h_range": [
+            0,
+            357
+        ],
+        "s_range": [
+            2,
+            32
+        ],
+        "v_range": [
+            68,
+            88
+        ],
+        "song_path": ""
+    },
+    {
+        "h_range": [
+            0,
+            356
+        ],
+        "s_range": [
+            1,
+            38
+        ],
+        "v_range": [
+            58,
+            79
+        ],
+        "song_path": ""
+    },
+    {
+        "h_range": [
+            3,
+            359
+        ],
+        "s_range": [
+            3,
+            77
+        ],
+        "v_range": [
+            51,
+            92
+        ],
+        "song_path": ""
+    },
+    {
+        "h_range": [
+            0,
+            353
+        ],
+        "s_range": [
+            0,
+            31
+        ],
+        "v_range": [
+            75,
+            96
+        ],
+        "song_path": ""
+    },
+    {
+        "h_range": [
+            32,
+            73
+        ],
+        "s_range": [
+            23,
+            47
+        ],
+        "v_range": [
+            86,
+            99
+        ],
+        "song_path": ""
+    },
+    {
+        "h_range": [
+            36,
+            85
+        ],
+        "s_range": [
+            15,
+            31
+        ],
+        "v_range": [
+            88,
+            100
+        ],
+        "song_path": ""
+    },
+    {
+        "h_range": [
+            21,
+            350
+        ],
+        "s_range": [
+            3,
+            23
+        ],
+        "v_range": [
+            82,
+            96
+        ],
+        "song_path": ""
+    },
+    {
+        "h_range": [
+            15,
+            109
+        ],
+        "s_range": [
+            3,
+            18
+        ],
+        "v_range": [
+            86,
+            95
+        ],
+        "song_path": ""
+    },
+    {
+        "h_range": [
+            21,
+            103
+        ],
+        "s_range": [
+            2,
+            21
+        ],
+        "v_range": [
+            90,
+            100
+        ],
+        "song_path": ""
+    },
+    {
+        "h_range": [
+            0,
+            345
+        ],
+        "s_range": [
+            0,
+            47
+        ],
+        "v_range": [
+            28,
+            42
+        ],
+        "song_path": ""
+    },
+    {
+        "h_range": [
+            0,
+            345
+        ],
+        "s_range": [
+            0,
+            68
+        ],
+        "v_range": [
+            22,
+            40
+        ],
+        "song_path": ""
+    },
+    {
+        "h_range": [
+            192,
+            278
+        ],
+        "s_range": [
+            13,
+            60
+        ],
+        "v_range": [
+            47,
+            64
+        ],
+        "song_path": ""
+    },
+    {
+        "h_range": [
+            0,
+            356
+        ],
+        "s_range": [
+            0,
+            77
+        ],
+        "v_range": [
+            10,
+            33
+        ],
+        "song_path": ""
+    },
+    {
+        "h_range": [
+            211,
+            267
+        ],
+        "s_range": [
+            26,
+            75
+        ],
+        "v_range": [
+            39,
+            56
+        ],
+        "song_path": ""
+    },
+    {
+        "h_range": [
+            0,
+            357
+        ],
+        "s_range": [
+            0,
+            41
+        ],
+        "v_range": [
+            35,
+            48
+        ],
+        "song_path": ""
+    },
+    {
+        "h_range": [
+            207,
+            297
+        ],
+        "s_range": [
+            15,
+            58
+        ],
+        "v_range": [
+            55,
+            80
+        ],
+        "song_path": ""
+    },
+    {
+        "h_range": [
+            0,
+            358
+        ],
+        "s_range": [
+            0,
+            37
+        ],
+        "v_range": [
+            44,
+            62
+        ],
+        "song_path": ""
+    },
+    {
+        "h_range": [
+            213,
+            322
+        ],
+        "s_range": [
+            7,
+            59
+        ],
+        "v_range": [
+            61,
+            86
+        ],
+        "song_path": ""
+    }
+]

@@ -1,0 +1,24 @@
+{
+  "color_ranges": [
+    {
+      "min_rgb": [80, 0, 0],
+      "max_rgb": [255, 50, 50],
+      "song": "Red Red Wine - UB40"
+    },
+    {
+      "min_rgb": [0, 0, 200],
+      "max_rgb": [50, 50, 255],
+      "song": "Blue Suede Shoes - Elvis Presley"
+    },
+    {
+      "min_rgb": [200, 200, 0],
+      "max_rgb": [255, 255, 100],
+      "song": "Yellow Submarine - The Beatles"
+    },
+    {
+      "min_rgb": [0, 0, 0],
+      "max_rgb": [30, 30, 30],
+      "song": "Paint It, Black - The Rolling Stones"
+    }
+  ]
+}

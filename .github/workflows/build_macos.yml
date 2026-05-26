@@ -1,0 +1,39 @@
+name: Build macOS App
+
+on:
+  push:
+    branches: [ main, master ]
+  workflow_dispatch:  # Permet de lancer manuellement depuis GitHub
+
+jobs:
+  build:
+    runs-on: macos-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Setup Python 3.11
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install dependencies
+        run: |
+          pip install pyinstaller
+          pip install matplotlib==3.7.5
+          pip install scikit-learn
+          pip install numpy
+
+      - name: Build .app with PyInstaller
+        run: |
+          pyinstaller --onefile --windowed \
+            --name "ProposalColorRange" \
+            proposalColorRange.py
+
+      - name: Upload macOS artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: ProposalColorRange-macOS
+          path: dist/
+          retention-days: 7
