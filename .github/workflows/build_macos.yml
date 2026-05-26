@@ -29,7 +29,7 @@ jobs:
         run: |
           pyinstaller --onefile --windowed \
             --name "ProposalColorRange" \
-            proposalColorRange.py
+            src/proposalColorRange.py
 
       - name: Upload macOS artifact
         uses: actions/upload-artifact@v4
